@@ -8,7 +8,7 @@ body {
 }
 
 button{
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 #navbar {
