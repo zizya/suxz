@@ -1,4 +1,9 @@
 body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
     width: 1440px;
     height: 4410px;
     padding: 81px 120px 81px 120px;
@@ -7,21 +12,8 @@ body {
     font-family: 'manrope';
 }
 
-button{
-    box-sizing: border-box;
-}
-
-#navbar {
-    display: flex;
-}
-
-
-img {
+.favicon {
     width: 41px;
     height: 50px;
-}
 
-.heroImg img {
-    width: 600px;
-    height: 616px;
 }
