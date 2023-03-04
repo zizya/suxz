@@ -1,6 +1,9 @@
 $('#navbar').css({
     display: 'flex',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    paddingLeft: 81,
+    paddingRight: 81,
+
 })
 $('.logo').css({
     display: 'flex'
@@ -11,7 +14,7 @@ $('.logo button').css({
 })
 $('.navbarBtn').css({
     display: 'flex',
-    marginleft: -400,
+    marginLeft: -200,
     justifyContent: 'space-between',
     width: 470,
 })

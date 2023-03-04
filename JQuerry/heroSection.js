@@ -1,4 +1,6 @@
 $('#heroSection .card').css({
+    paddingLeft: 81,
+    paddingRight: 81,
     justifyContent:'space-between',
     height:620
 })

@@ -5,9 +5,10 @@ $('button').css({
 
 }).on('mouseover',
     function () {
-        if ($(this).css('backgroundColor') == 'rgb(255, 255, 255)') {
+        if ($(this).css('backgroundColor') == 'rgb(255, 255, 255)' || $(this).css('backgroundColor') == 'rgb(68, 228, 201)') {
             $(this).css({
                 backgroundColor: '#8C82FC',
+                border:'0.1px solid #44E4C9',
                 opacity: 0.2,
                 color: 'white'
             }).animate({
@@ -21,10 +22,10 @@ $('button').css({
                 opacity: 1
             },)
 
-        }else if ($(this).hasClass('vanished')) {
+        } else if ($(this).hasClass('vanished')) {
             $(this).css({
                 color: 'black',
-                backgroundColor: '#82fcbf',
+                backgroundColor: '#44E4C9',
                 opacity: 0.2,
             }).animate({
                 opacity: 1
@@ -49,9 +50,19 @@ $('button').css({
                     opacity: 1
                 },)
             }
+            else if ($(this).hasClass('colorGreen')) {
+                $(this).css({
+                    backgroundColor: '#44E4C9',
+                    color: 'white',
+                    opacity: 0.2,
+                }).animate({
+                    opacity: 1
+                },)
+            }
             else {
                 $(this).css({
                     backgroundColor: 'white',
+                    border:'none',
                     borderRadius: 10,
                     opacity: 0.2,
                     color: 'black'
