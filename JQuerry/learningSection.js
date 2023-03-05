@@ -11,6 +11,7 @@ $('#learningsSection .card').css({
 
 })
 $('#learningsSection .card .title').css({
+    display: 'none',
     width: 555,
 })
 $('#learningsSection .card .title :nth-child(1)').css({
@@ -79,12 +80,3 @@ $('.learningsCards .infoCard .titleCards button ').css({
     height: 36
 })
 
-$(window).scroll(function () {
-   var scrlTop= $(window).scrollTop();
-   if(scrlTop >= 700){
-    $('.learningsCards').slideDown().css({
-        display:'flex'
-    })
-   }
-
-})

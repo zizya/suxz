@@ -5,10 +5,10 @@ $('button').css({
 
 }).on('mouseover',
     function () {
-        if ($(this).css('backgroundColor') == 'rgb(255, 255, 255)' || $(this).css('backgroundColor') == 'rgb(68, 228, 201)') {
+        if ($(this).css('backgroundColor') == 'rgb(255, 255, 255)' || $(this).css('backgroundColor') == 'rgb(68, 228, 201)' || $(this).css('backgroundColor') == 'rgba(0, 0, 0, 0)') {
             $(this).css({
                 backgroundColor: '#8C82FC',
-                border:'0.1px solid #44E4C9',
+                border: '0.1px solid #44E4C9',
                 opacity: 0.2,
                 color: 'white'
             }).animate({
@@ -62,7 +62,7 @@ $('button').css({
             else {
                 $(this).css({
                     backgroundColor: 'white',
-                    border:'none',
+                    border: 'none',
                     borderRadius: 10,
                     opacity: 0.2,
                     color: 'black'

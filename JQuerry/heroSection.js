@@ -76,7 +76,10 @@ $('#heroSection .card .heroImg :nth-child(4)').css({
 })
 
 $(document).ready(function () {
-    $('#heroSection .card .heroImg :nth-child(1), :nth-child(2)').animate({
+    $('#heroSection .card .heroImg :nth-child(1)').animate({
+        opacity: 1
+    })
+    $('#heroSection .card .heroImg :nth-child(2)').animate({
         opacity: 1
     }, function () {
         $('#heroSection .card .heroImg :nth-child(4)').animate({
@@ -89,3 +92,7 @@ $(document).ready(function () {
     })
 
 })
+
+function global(){
+    console.log(1);
+}
