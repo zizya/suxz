@@ -52,10 +52,27 @@ $(window).scroll(function () {
             })
             break;
     }
-
-
-
-
-
-
+})
+$(document).ready(function () {
+    var scrlTop = $(window).scrollTop();
+  
+    if (scrlTop >= 1400) {
+        $('#companySection .title, #companySection .brands img, #testimonialSection .card .title, #testimonialSection .card .monCards, #startSection .card .title, #startSection .card .startSectionBtns').animate({
+            opacity: 1
+        })
+        $('.learningsCards').slideDown().css({
+            display: 'flex'
+        })
+        $('#learningsSection .title').slideDown().css({
+            display: 'flex',
+            flexDirection: 'column'
+        })
+        $('#aboutUsSection .imgAbouts :nth-child(1)').slideDown().css({
+        })
+        $('#aboutUsSection .aboutUs').slideDown().css({
+            display: 'flex',
+        })
+        $('#aboutUsSection .imgAbouts :nth-child(2)').slideDown().css({
+        })
+    }
 })

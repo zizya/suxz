@@ -6,7 +6,8 @@ body {
 #container {
     width: 1440px;
     height: 4410px;
-    padding-top:  120px;
+    overflow-x: auto;
+    padding-top:  80px;
     display: flex;
     flex-direction: column;
     font-family: 'manrope';
