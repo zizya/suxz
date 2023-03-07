@@ -1,8 +1,10 @@
 $('#heroSection .card').css({
+    display: 'flex',
     paddingLeft: 81,
     paddingRight: 81,
-    justifyContent:'space-between',
-    height:620
+    justifyContent: 'space-between',
+    minHeight: 620,
+    
 })
 $('#heroSection .card .title').css({
     width: 550,
@@ -52,7 +54,12 @@ $('#heroSection .card .title button:last').css({
 
 })
 $('#heroSection .card .heroImg ').css({
+
+
     width: 660,
+
+    height: 616,
+
 })
 $('#heroSection .card .heroImg img').css({
     position: 'relative',
@@ -93,6 +100,10 @@ $(document).ready(function () {
 
 })
 
-function global(){
+function global() {
     console.log(1);
 }
+// Media
+$('.heroImgSmall img').css({
+    display: 'none'
+})

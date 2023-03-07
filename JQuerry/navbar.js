@@ -66,7 +66,7 @@ $('#burgerMenuSmall').css({
     display: "none",
     flexDirection: 'column',
     alignItems: 'center',
-    height: 200
+    height: 'auto'
 })
 $('#burgerMenuSmall button').css({
     display: "none",
