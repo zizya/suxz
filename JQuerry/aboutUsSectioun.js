@@ -12,14 +12,14 @@ $('.imgAbouts').css({
 
 })
 $('.imgAbouts :nth-child(1)').css({
-    display:'none'
-
+    display:'none',
 })
 $('.imgAbouts :nth-child(2)').css({
     display:'none',
     position: 'relative',
     top: -150,
-    left: 120
+    left: 120,
+    
 
 })
 $('.aboutUs').css({

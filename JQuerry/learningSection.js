@@ -80,3 +80,4 @@ $('.learningsCards .infoCard .titleCards button ').css({
     height: 36
 })
 
+// media

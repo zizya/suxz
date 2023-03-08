@@ -7,7 +7,8 @@ $('#footerSection .card .footCol ').css({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    marginTop:20
 })
 $('#footerSection .card :nth-child(1)').css({
     justifyContent: 'flex-start',

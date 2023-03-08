@@ -3,7 +3,8 @@ $('#testimonialSection .card').css({
     paddingLeft: 83,
     paddingRight: 83,
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    height: 'auto'
 })
 $('#testimonialSection .card .title ').css({
     display: 'flex',
@@ -47,8 +48,9 @@ $('#testimonialSection .card .monCards').css({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
+    
 })
-$('#testimonialSection .card .monCards .card').css({
+$('#testimonialSection .card .monCards .cards').css({
     width: 240,
     height: 305,
     border: '1px solid #8C82FC',
@@ -58,32 +60,32 @@ $('#testimonialSection .card .monCards .card').css({
     paddingTop: -30,
     textAlign: 'center'
 })
-$('#testimonialSection .card .monCards .card img').css({
+$('#testimonialSection .card .monCards .cards img').css({
     position: 'relative',
     width: 80,
     height: 80,
     top: -65,
-    left: 55
+    left: 0
 })
 
 
 
 
 
-$('#testimonialSection .card .monCards .card .namePosition').css({
+$('#testimonialSection .card .monCards .cards .namePosition').css({
     marginTop:-61
 })
-$('#testimonialSection .card .monCards .card .namePosition :nth-child(1)').css({
+$('#testimonialSection .card .monCards .cards .namePosition :nth-child(1)').css({
     fontSize: 22,
     fontWeight: 700,
     color: '#22293E',
 })
-$('#testimonialSection .card .monCards .card .namePosition :nth-child(2)').css({
+$('#testimonialSection .card .monCards .cards .namePosition :nth-child(2)').css({
     fontSize: 15,
     fontWeight: 400,
     color: '#BAB8D2',
 })
-$('#testimonialSection .card .monCards .card .namePosition :nth-child(3)').css({
+$('#testimonialSection .card .monCards .cards .namePosition :nth-child(3)').css({
     fontSize: 17,
     fontWeight: 400,
 

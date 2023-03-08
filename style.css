@@ -6,7 +6,7 @@ body {
 #container {
     width: 1440px;
     height: 4410px;
-    overflow-x: auto;
+    overflow-x:scroll;
     padding-top:  80px;
     display: flex;
     flex-direction: column;
